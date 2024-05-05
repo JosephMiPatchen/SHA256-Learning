@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug sandbox.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/expander/sandbox.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Python: Debug one_way.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/one_way_numbers/sandbox.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
